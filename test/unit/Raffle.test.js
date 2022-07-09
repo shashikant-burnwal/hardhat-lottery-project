@@ -165,7 +165,7 @@ const { developmentChains, networkConfig } = require("../../helper-hardhat-confi
 
                   // performUpkeep (mock being chainlink keepers)
                   // fulfillRandomWords (mock being the chainlink VRF)
-                  // We will have to wait for thr fulfillRandomWords to be called
+                  // We will have to wait for  fulfillRandomWords to be called
 
                   await new Promise(async (resolve, reject) => {
                       raffle.once("WinnerPicked", async () => {
